@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression Test">
+    <test name="Regression Test">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.syntax.class1"/>
+            <package name="com.syntax.class2"/>
+            <package name="com.syntax.class3"/>
+        </packages>
+    </test>
+</suite>

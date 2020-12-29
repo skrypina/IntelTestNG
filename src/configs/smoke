@@ -1,0 +1,14 @@
+<suite name="Smoke Test">
+    <test name="Smoke Test">
+        <groups>
+                <run>
+                        <include name="smoke"/>
+                </run>
+        </groups>
+        <packages>
+            <package name="com.syntax.class1"/>
+            <package name="com.syntax.class2"/>
+            <package name="com.syntax.class3"/>
+        </packages>
+    </test>
+</suite>
